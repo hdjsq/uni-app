@@ -1,0 +1,32 @@
+/*iconfont 引入*/
+@font-face {
+  font-family: "iconfont"; /* project id 1372762 */
+  src: url("//at.alicdn.com/t/font_1372762_0ykfge1wjrx.eot");
+  src: url("//at.alicdn.com/t/font_1372762_0ykfge1wjrx.eot?#iefix")
+      format("embedded-opentype"),
+    url("//at.alicdn.com/t/font_1372762_0ykfge1wjrx.woff2") format("woff2"),
+    url("//at.alicdn.com/t/font_1372762_0ykfge1wjrx.woff") format("woff"),
+    url("//at.alicdn.com/t/font_1372762_0ykfge1wjrx.ttf") format("truetype"),
+    url("//at.alicdn.com/t/font_1372762_0ykfge1wjrx.svg#iconfont") format("svg");
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/*公共样式*/
+page {
+  font-family: PingFangSC-Regular;
+  font-size: 30upx;
+  color: #151515;
+  letter-spacing: 0;
+  line-height: 33upx;
+}
+view,
+text {
+  box-sizing: border-box;
+}
